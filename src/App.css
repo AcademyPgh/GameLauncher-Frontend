@@ -1,0 +1,146 @@
+body {
+  background-color: black;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  padding: 1% 0 1%;
+}
+
+.app-logo {
+  width: 12.5%;
+  vertical-align: middle;
+  margin-right: 1%;
+  background-image: url("./assets/logo.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.search-bar {
+  width: 82.5%;
+  font-size: calc(0.8vw * 1.5);
+  color: white;
+  background-color: #191919;
+  padding: 0.75%;
+  margin-left: 0.75%;
+  border: 1px solid white;
+  border-radius: 0.5vw;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  margin-top: 1%;
+}
+
+.sidebar {
+  width: 12.5%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #191919;
+  border: 1px solid white;
+  border-radius: 0.5vw;
+}
+
+.sidebar-title {
+  font-size: calc(0.8vw * 2.5);
+  font-weight: bold;
+  text-align: center;
+}
+
+.genre {
+  display: flex;
+  padding: 2.5% 5% 2.5%;
+}
+
+.genre-icon {
+  object-fit: contain;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.genre-name {
+  font-size: calc(0.8vw * 1.5);
+}
+
+.cards-grid {
+  width: 87.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-shape {
+  position: relative;
+  width: calc(88% / 5);
+  aspect-ratio: 1/1;
+  border-radius: 0.5vw;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 1px gray;
+  margin: 0 0 2%;
+}
+
+.card-image {
+  object-fit: cover;
+  height: 50%;
+  border-radius: 0.5vw 0.5vw 0 0;
+}
+
+.card-text {
+  height: 50%;
+  border-radius: 0 0 0.5vw 0.5vw;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+  padding: 2%;
+}
+
+.title {
+  font-size: calc(0.8vw * 4 / 3);
+  font-variant-caps: small-caps;
+  padding: 0 1.5% 0;
+}
+
+.blurb {
+  font-size: 0.8vw;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  padding: 5% 0 5%;
+}
+
+.launch {
+  font-size: calc(0.8vw * 1.25);
+  color: white;
+  padding: 0 1.5% 0;
+}
+
+.flyout {
+  animation: flyout-animation calc(1s * 2 / 3) linear forwards;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: z-index calc(1s * 2 / 3) step-start;
+}
+
+@keyframes flyout-animation {
+	from {transform: scale(1) translateX(0) translateY(0) rotateY(0deg);}
+	to {transform: scale(2.25) translateX(50%) translateY(50%) rotateY(calc(180deg * 4));}
+}
+
+.flyin {
+  animation: flyin-animation calc(1s * 2 / 3) linear;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: z-index calc(1s * 2 / 3) step-end;
+}
+
+@keyframes flyin-animation {
+	from {transform: scale(2.25) translateX(50%) translateY(50%) rotateY(calc(180deg * 4));}
+	to {transform: scale(1) translateX(0) translateY(0) rotateY(0deg);}
+}
