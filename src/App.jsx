@@ -1,8 +1,8 @@
-import './App.css';
-import gameData from './gameData';
-import GameInfo from './gameInfo';
-import genreData from './genreData';
-import GenreInfo from './genreInfo';
+import "./App.css";
+import gameData from "./gameData";
+import MakeCard from "./makeCard";
+import genreData from "./genreData";
+import MakeFilter from "./makeFilter";
 
 function App() {
   return (
@@ -14,14 +14,14 @@ function App() {
       <div className="main">
         <div className="sidebar">
           <div className="sidebar-title">Genre</div>
-          {genreData.map((genre) => <GenreInfo genre={genre}/>)}
+          {genreData.map((genre) => <MakeFilter genre={genre}/>)}
         </div>
-        <div className="cards-grid">
-          {gameData.map((game) => <GameInfo game={game}/>)}
+        <div className="card-grid">
+          {gameData.map((game) => <MakeCard game={game}/>)}
         </div>
       </div>
     </>
   );
-}
+};
 
 export default App;

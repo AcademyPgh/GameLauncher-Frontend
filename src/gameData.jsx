@@ -1,5 +1,10 @@
 let gameData = [
     {
+        title: "Alien: Isolation",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/214490/header.jpg?t=1668768027",
+        blurb: "Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger."
+    },
+    {
         title: "Aliens: Dark Descent",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1150440/header.jpg?t=1687277023",
         blurb: "Drop into the gripping journey of Aliens: Dark Descent, a squad-based, single-player action game in the iconic Alien franchise. Lead your soldiers in real-time to stop a new and terrifying kind of Xenomorph outbreak on Planet Lethe.",
@@ -20,6 +25,11 @@ let gameData = [
         blurb: "Winner of over 80 awards, Control is a visually stunning third-person action-adventure that will keep you on the edge of your seat."
     },
     {
+        title: "Detroit: Become Human",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg?t=1667468479",
+        blurb: "Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created."
+    },
+    {
         title: "Deus Ex: Mankind Divided",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/337000/header.jpg?t=1675708510",
         blurb: "Now an experienced covert operative, Adam Jensen is forced to operate in a world that has grown to despise his kind. Armed with a new arsenal of state-of-the-art weapons and augmentations, he must choose the right approach, along with who to trust, in order to unravel a vast worldwide conspiracy."
@@ -30,6 +40,11 @@ let gameData = [
         blurb: "Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge. With Dishonored's flexible combat system, creatively eliminate your targets as you combine the supernatural abilities, weapons and unusual gadgets at your disposal."
     },
     {
+        title: "Dragon Age™ Inquisition",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1222690/header.jpg?t=1668811031",
+        blurb: "Winner of over 130 Game of the Year awards, discover the definitive Dragon Age: Inquisition experience. The Game of the Year Edition includes the critically acclaimed game, all three official add-ons - Jaws of Hakkon, The Descent, and Trespasser - and more."
+    },
+    {
         title: "Gamedec",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/917720/header.jpg?t=1686038690",
         blurb: "Gamedec is a single-player cyberpunk isometric RPG. You are a game detective, who solves crimes inside virtual worlds. Use your wits to gather info from your witnesses and suspects, getting to the bottom of deceptive schemes. The game continually adapts to your decisions and never judges."
@@ -38,6 +53,11 @@ let gameData = [
         title: "Ghost of a Tale",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/417290/header.jpg?t=1667033370",
         blurb: "Ghost of a Tale is an action-RPG game in which you play as Tilo, a mouse and minstrel thrown into a perilous adventure. Through stealth and cunning you'll be able to explore the secrets of Dwindling Heights Keep and navigate its dangers."
+    },
+    {
+        title: "GreedFall",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/header.jpg?t=1663150674",
+        blurb: "Engage in a core roleplaying experience, and forge the destiny of a new world seeping with magic, and filled with riches, lost secrets, and fantastic creatures. With diplomacy, deception and force, become part of a living, evolving world - influence its course and shape your story."
     },
     {
         title: "Hellblade: Senua's Sacrifice",
@@ -73,6 +93,11 @@ let gameData = [
         title: "Solasta: Crown of the Magister",
         image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1096530/header.jpg?t=1685037606",
         blurb: "Roll for initiative, take attacks of opportunity, manage player location and the verticality of the battle field in this Turn-Based Tactical RPG based on the SRD 5.1 Ruleset. In Solasta, you make the choices, dice decide your destiny."
+    },
+    {
+        title: "Vampyr",
+        image: "https://cdn.cloudflare.steamstatic.com/steam/apps/427290/header.jpg?t=1651049845",
+        blurb: "London, 1918. You are newly-turned Vampyr Dr. Jonathan Reid. As a doctor, you must find a cure to save the city's flu-ravaged citizens. As a Vampyr, you are cursed to feed on those you vowed to heal."
     }
 ];
 

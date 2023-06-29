@@ -1,4 +1,4 @@
-function GenreInfo({genre}) {
+function MakeFilter({genre}) {
     return (
         <div className="genre">
             <img className="genre-icon" src={genre.icon}></img>
@@ -7,4 +7,4 @@ function GenreInfo({genre}) {
     );
 }
 
-export default GenreInfo;
+export default MakeFilter;
