@@ -108,7 +108,7 @@ body {
 
 .card-shape:hover {
   box-shadow: 0 0 10px 1px var(--light-gray);
-  scale: 1.05;
+  /* scale: 1.05; */
 }
 
 .card-image {
@@ -140,9 +140,9 @@ body {
   padding: 2.5%;
 }
 
-/* .blurb:hover {
+.blurb:hover {
   overflow-y: scroll;
-} */
+}
 
 .launch {
   font-size: calc(var(--font-size) * 1.25);
