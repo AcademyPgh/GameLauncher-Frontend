@@ -1,8 +1,8 @@
 import "./App.css";
 import gameData from "./gameData";
-import GameCard from "./makeCard";
+import GameCard from "./gameCard";
 import genreData from "./genreData";
-import GenreFilter from "./makeFilter";
+import GenreFilter from "./genreFilter";
 
 function App() {
   return (
